@@ -13,7 +13,7 @@ urlpatterns = [
     path('user-answers/<int:user_poll_id>/', views.UserAnswers.as_view()),
     path('user-answers/active-polls/',
          views.PollActiveList.as_view()),
-    path('user-answers/active-polls/<int:poll_id>',
+    path('user-answers/active-polls/<int:poll_id>/',
          views.PollAnswer.as_view()),
 ]
 

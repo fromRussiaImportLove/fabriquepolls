@@ -64,14 +64,14 @@ _В текущей редакции в API отсутствует валидац
 
 * Показать все существующие опросы: `GET /polls/`
 * Создать новый опрос: `POST /polls/`
-* Редактировать опрос: `PUT /polls/<int:poll_id>`
-* Удалить опрос: `DELETE /polls/<int:poll_id>`
+* Редактировать опрос: `PUT /polls/<int:poll_id>/`
+* Удалить опрос: `DELETE /polls/<int:poll_id>/`
 * Показать вопросы из опроса: `GET /polls/<int:poll_id>/questions/`
 * Добавить вопрос к опросу: `POST /polls/<int:poll_id>/questions/`
 * Показать конкретный вопрос: `GET /questions/<int:question_id>/`
 * Редактировать вопрос: `PUT /questions/<int:question_id>/`
 * Удалить вопрос: `DELETE /questions/<int:question_id>/`
 * Варианты ответа для закрытого вопроса: `GET /questions/<int:question_id>/variants/`
-* Показать конкретный вариант: `GET /variants/<int:variant_id>`
-* Редактировать вариант ответа: `PUT /variants/<int:varian_id>`
-* Удалить вариант ответа: `DELETE /variants/<int:variant_id>`
+* Показать конкретный вариант: `GET /variants/<int:variant_id>/`
+* Редактировать вариант ответа: `PUT /variants/<int:varian_id>/`
+* Удалить вариант ответа: `DELETE /variants/<int:variant_id>/`
